@@ -1,0 +1,55 @@
+export const TOKENS = {
+  color: {
+    page: '#FBF9F4',
+    surface: '#FFFFFF',
+    ink: '#293B30',
+    body: '#59665B',
+    muted: '#667268',
+    faint: '#788078',
+    line: '#E8E8DF',
+    green: '#365642',
+    greenLight: '#E8EFE5',
+    greenSoft: '#DCE8D8',
+    sage: '#527E5D',
+    gold: '#D7A74F',
+    heart: '#B34452',
+    cream: '#F5D99A',
+    white: '#FFFFFF',
+    overlay: 'rgba(27, 38, 30, 0.48)',
+  },
+  space: {
+    xsmall: 4,
+    small: 8,
+    medium: 12,
+    large: 16,
+    xlarge: 20,
+    xxlarge: 24,
+    section: 28,
+    page: 22,
+  },
+  radius: {
+    small: 10,
+    medium: 14,
+    large: 18,
+    xlarge: 22,
+    round: 999,
+  },
+  text: {
+    caption: 10,
+    small: 12,
+    body: 14,
+    title: 17,
+    heading: 30,
+  },
+  breakpoint: {
+    tablet: 600,
+  },
+};
+
+export const MOODS = [
+  { name: 'Bahagia', emoji: '☀️', color: '#A56A16', background: '#FFF4DF' },
+  { name: 'Tenang', emoji: '🌿', color: '#386B4D', background: '#EAF3EC' },
+  { name: 'Bersyukur', emoji: '💛', color: '#886516', background: '#F8F0D8' },
+  { name: 'Lelah', emoji: '☁️', color: '#536783', background: '#EAEFF6' },
+  { name: 'Semangat', emoji: '🌷', color: '#9A4F5D', background: '#FBEAED' },
+];

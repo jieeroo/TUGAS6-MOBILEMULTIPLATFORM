@@ -1,0 +1,52 @@
+export const diaryEntries = [
+  {
+    id: 'sunny-morning',
+    date: 'Hari ini · 09.15',
+    mood: 'Bahagia',
+    title: 'Pagi yang terasa ringan',
+    excerpt: 'Menikmati kopi di teras dan membiarkan matahari menyapa lebih dulu.',
+    image: require('../../assets/moods/sunrise.png'),
+  },
+  {
+    id: 'quiet-evening',
+    date: 'Kemarin · 20.40',
+    mood: 'Tenang',
+    title: 'Pulang sebelum malam',
+    excerpt: 'Jalanan sedikit lengang. Playlist lama ternyata masih jadi teman terbaik.',
+  },
+  {
+    id: 'little-things',
+    date: '10 Nov · 16.20',
+    mood: 'Bersyukur',
+    title: 'Hal-hal kecil hari ini',
+    excerpt: 'Makan siang bersama teman, obrolan sederhana, dan tawa yang menular.',
+  },
+  {
+    id: 'slow-day',
+    date: '09 Nov · 21.05',
+    mood: 'Lelah',
+    title: 'Tidak apa-apa untuk istirahat',
+    excerpt: 'Hari ini cukup panjang. Besok bisa mencoba lagi dengan energi baru.',
+  },
+  {
+    id: 'new-idea',
+    date: '08 Nov · 11.30',
+    mood: 'Semangat',
+    title: 'Ide baru di kepala',
+    excerpt: 'Mulai mencatat rencana kecil yang sudah lama ingin diwujudkan.',
+  },
+  {
+    id: 'rainy-window',
+    date: '07 Nov · 18.10',
+    mood: 'Tenang',
+    title: 'Mendengar hujan dari jendela',
+    excerpt: 'Secangkir teh hangat membuat sore yang mendung terasa lebih nyaman.',
+  },
+  {
+    id: 'small-victory',
+    date: '06 Nov · 14.35',
+    mood: 'Bahagia',
+    title: 'Satu langkah yang selesai',
+    excerpt: 'Akhirnya menyelesaikan hal yang terus tertunda. Bangga pada diri sendiri.',
+  },
+];
